@@ -1,0 +1,17 @@
+npm
+  audit			: Regresa información dependencias comprometidas.
+    --json		: Mostrar la información Objeto.
+    fix			: Reparar de forma automatica las actualizaciones.
+	--fore		: Forza actualizaciones de todos los paquetes.
+  list		      : Dependencias agregadas.
+    -g	        : Listar forma Globlal. 
+  install	      : Dependencias Clone packages.json
+    outdate	: Lista las actualizaciones de las dependencias.
+    name        : instalación forma de Dependencia
+    name@0.15.0       : Versión de la dependencia.
+    name@latest       : Ultima versión
+	    -s --save-dev   : Dependencia SOLO entorno de desarrollo.
+	    -S --save       : ¡Dependencia producción!.
+	    -g	            : Forma Global. 
+  	  -o	            : Opcional.
+	    --dry-run       : Simulación de instalación pre Conflicto.
